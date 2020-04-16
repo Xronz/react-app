@@ -15,8 +15,8 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-#npm install replace with npm $(tag_version)
+#npm install replace with npm $(version_tag)
 - script: |
-    npm $(tag_version)
+    npm $(version_tag)
     npm run build
   displayName: 'npm install and build'
