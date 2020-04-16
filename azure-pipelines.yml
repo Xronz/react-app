@@ -8,9 +8,6 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-
-variables:
-  tag_version: "install-9999"
   
 steps:
 - task: NodeTool@0
